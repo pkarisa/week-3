@@ -6,6 +6,6 @@ const myAnimals =["cows","goats","chicken","turkeys"];
 //console.log(myAnimals)
 //myAnimals.pop();
 //console.log(myAnimals)
-myAnimals.shift();
-console.log(myAnimals)
+//myAnimals.shift();
+//console.log(myAnimals)
 
