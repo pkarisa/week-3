@@ -14,3 +14,4 @@ myAnimals.forEach ((item,index) =>{
     console.log('i love',item)
 });
 
+
