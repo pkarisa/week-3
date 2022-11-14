@@ -8,4 +8,9 @@ const myAnimals =["cows","goats","chicken","turkeys"];
 //console.log(myAnimals)
 //myAnimals.shift();
 //console.log(myAnimals)
+//loops
+//method 1
+myAnimals.forEach ((item,index) =>{
+    console.log('i love',item)
+});
 
