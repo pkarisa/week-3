@@ -20,4 +20,16 @@ const myAnimals =["cows","goats","chicken","turkeys"];
           // console.log('I am eating a',item);
       //}
      //});
-     
+     //Method 3
+ //for (let index = 0; index < myAnimals.length; index++) {
+   // const element = myAnimals[index];
+   // console.log(element,'is in position', index);
+//}
+// // Length vs Index
+ const myWord = 'Animals';
+  for (let index = 0; index < myWord.length; index++) {
+    const singleLetter = myWord[index];
+    console.log(singleLetter)
+}
+ console.log(myWord.length);
+
