@@ -10,11 +10,22 @@
     <p id="first"> my first sentence</p>
     <p id="second"> my second sentence </p>
     <p class="third"> my third sentence</p>
+    <button id ="first"></button>
   <!-- Link to Jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>    
-  jQuery(document).ready(() =>
+  <script>
+     jQuery(document).ready(() =>{
+    const paragraphs = jQuery('p#first');
+    console.log(paragraphs)})
 
-  <script src="jquery.js"></script>
+    //Get element by class
+  jQuery(document).ready(() =>{
+    const paragraphs = jQuery('p.third');
+    console.log(paragraphs)
+  })
+  
+</script>
+  <script src=""></script>
 </body>
 
 </html>
