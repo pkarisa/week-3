@@ -13,10 +13,11 @@ const myAnimals =["cows","goats","chicken","turkeys"];
 //myAnimals.forEach ((item,index) =>{
     //console.log('i love',item)
 //});
- myAnimals.forEach((item, index) => {
-if (item == 'cow') {
-     console.log('I don\'t like cows');
-      } else {
-           console.log('I am eating a',item);
-      }
-     });
+ //myAnimals.forEach((item, index) => {
+//if (item == 'goat') {
+     //console.log('I don\'t like goats');
+      //} else {
+          // console.log('I am eating a',item);
+      //}
+     //});
+     
